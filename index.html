@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>SuperCars Elite</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero" id="home">
+<nav class="navbar">
+<h1>SuperCars</h1>
+<ul>
+<li><a href="#home">Inicio</a></li>
+<li><a href="#cars">Modelos</a></li>
+<li><a href="#about">Nosotros</a></li>
+<li><a href="#contact">Contacto</a></li>
+</ul>
+</nav>
+
+<div class="hero-content">
+<h2>Potencia. Lujo. Velocidad.</h2>
+<p>La colección definitiva de autos deportivos</p>
+<button id="exploreBtn">Ver modelos</button>
+</div>
+</header>
+
+<section id="cars" class="cars-section">
+<h2>Modelos Destacados</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="assets/ferrari.jpg">
+<h3>Ferrari F8 Tributo</h3>
+<p>720 HP · 340 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/lamborghini.jpg">
+<h3>Lamborghini Huracán EVO</h3>
+<p>640 HP · 325 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/bugatti.jpeg">
+<h3>Bugatti Chiron</h3>
+<p>1500 HP · 420 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/porsche.jpg">
+<h3>Porsche 911 Turbo S</h3>
+<p>650 HP · 330 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/mclaren.jpg">
+<h3>McLaren 720S</h3>
+<p>720 HP · 341 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/astonmartin.jpg">
+<h3>Aston Martin DBS</h3>
+<p>715 HP · 340 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/corvette.avif">
+<h3>Corvette Z06</h3>
+<p>670 HP · 315 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/gtr.jpg">
+<h3>Nissan GT-R Nismo</h3>
+<p>600 HP · 315 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/jesko.jpg">
+<h3>Koenigsegg Jesko</h3>
+<p>1600 HP · 480 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/pagani.jpg">
+<h3>Pagani Huayra</h3>
+<p>730 HP · 383 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/audir8.jpg">
+<h3>Audi R8 V10</h3>
+<p>620 HP · 331 km/h</p>
+</div>
+
+<div class="card">
+<img src="assets/rimac.jpg">
+<h3>Rimac Nevera</h3>
+<p>1914 HP · 412 km/h</p>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="about-section">
+<h2>Sobre SuperCars</h2>
+<p>
+SuperCars Elite es una plataforma dedicada a mostrar los autos deportivos más exclusivos del mundo,
+destacando su tecnología, diseño y desempeño extremo.
+</p>
+</section>
+
+<section id="contact" class="contact-section">
+<h2>Contacto</h2>
+
+<form id="contactForm">
+<input type="text" id="name" placeholder="Nombre">
+<input type="email" id="email" placeholder="Correo">
+<textarea id="message" placeholder="Mensaje"></textarea>
+<button type="submit">Enviar</button>
+</form>
+
+<p id="formMsg"></p>
+</section>
+
+<footer>
+<p>© 2026 SuperCars Elite</p>
+</footer>
+
+<!-- MODAL -->
+<div id="carModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <img id="modalImg">
+    <h2 id="modalTitle"></h2>
+    <p id="modalInfo"></p>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
